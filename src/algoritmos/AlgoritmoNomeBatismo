@@ -1,0 +1,12 @@
+Algoritmo NomeBatismo
+VAR
+	nome, sobrenome: literal;
+
+INICIO
+	imprima("Digite o seu nome: ");
+	leia(nome);
+	imprima("Digite o seu sobrenome: ");
+	leia(sobrenome);
+
+	imprima("Seu sobrenome é:", sobrenome, "e seu nome é:", nome);
+FIM.

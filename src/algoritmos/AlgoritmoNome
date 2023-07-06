@@ -1,0 +1,8 @@
+Algoritmo Nome
+VAR
+	nome: literal;
+INICIO
+	imprima("Digite o seu nome: ");
+	leia(nome);
+	imprima("O seu nome é ", nome);
+FIM.
