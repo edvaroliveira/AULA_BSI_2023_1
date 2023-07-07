@@ -1,0 +1,11 @@
+Algoritmo Chuva
+    VAR
+        pol,
+    mm : real;
+
+INICIO
+escreva("Digite a quantidade de chuva em polegadas: ");
+leia(pol);
+mm < --pol * 25, 4;
+escreva("O equivalente em mm é", mm);
+FIM.

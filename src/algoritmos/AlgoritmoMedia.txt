@@ -1,0 +1,14 @@
+algoritmo ëxercicio"
+var
+c1,c2,c3,c4,resultado:real
+inicio
+escreval("DIGITE O PRIMEIRO VALOR")
+leia(c1)
+escreval("DIGITE O SEGUNDO VALOR")
+leia(c2)
+escreval("DIGITE O TERCEIRO VALOR")
+leia(c3)
+escreval("DIGITE O QUARTO VALOR")
+leia(c4)
+resultado<-(c1+c2+c3+c4)/4
+escreval("O RESULTADO É ", resultado)

@@ -1,0 +1,20 @@
+Var
+T,s1,s2,s3:real;
+
+inicio
+//Escreva("escreva os lados s1,s2,s3");
+
+Escreva("escreva o lado s1");
+leia(s1);
+Escreva("escreva o lado s2");
+leia(s2);
+Escreva("escreva o lado s3");
+leia(s3);
+
+T<--(s1+s2+s3)/2;
+
+Area<-- SQRT(T*(T-s1)*(T-s2)*(T-s3));
+
+escreva("A area e igual:",Area);
+
+FIM

@@ -1,0 +1,13 @@
+Algoritmo reajuste
+VAR
+  salario: real;
+
+INICIO
+  escreva("Digite o valor atual do seu salário");
+  leia(salario);
+
+  salario <- salario * 1,15;
+
+  escreva("O seu salário reajustado é", salario);
+
+FIM

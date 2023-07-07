@@ -1,0 +1,24 @@
+Algoritmo Operacoes
+VAR
+  valor1, valor2: real;
+  resultado: real;
+
+INICIO
+  escreva("Digite o primeiro valor: ");
+  leia(valor1);
+  escreva("Digite o segundo valor: ");
+  leia(valor2);
+
+
+  escreva("O resultado da soma é", valor1 + valor2);
+
+  resultado <-- valor1 - valor2;
+  escreva("O resultado da subtração é", resultado);
+
+  resultado <-- valor1 * valor2;
+  escreva("O resultado da multiplicação é", resultado);
+
+  resultado <-- valor1 / valor2;
+  escreva("O resultado da divisão é", resultado);
+
+FIM.
